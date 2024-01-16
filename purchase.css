@@ -1,0 +1,388 @@
+/* css page reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* makes sure content fits to page size */
+body {
+    max-width: 100%;
+    overflow-y: auto;
+    background-color: rgb(148, 166, 132);
+}
+
+/* navigation bar */
+
+
+#nav {
+    background-color: rgba(148, 166, 132, 0.3);
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    position: fixed;
+    word-spacing: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: left;
+    top: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+#nav a {
+    text-decoration: none;
+    color: rgb(14, 36, 22);
+    word-spacing: 2px;
+}
+
+/* navigation bar 2 */
+
+
+.nav2 {
+    background-color: rgb(148, 166, 132, 0.3);
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    word-spacing: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    position: absolute;
+    bottom: -400px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    z-index: 99;
+    margin-bottom: 340px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-weight: 200px;
+    word-spacing: 2px;
+    color: rgb(186, 204, 171);
+}
+
+.click {
+    font-weight: bold;
+}
+
+.click a {
+    color: rgb(186, 204, 171);
+}
+
+/* header */
+
+.bgimg {
+    background-image: url('https://i.pinimg.com/originals/29/bf/bb/29bfbb48eeeae4d8e35e49015765a530.jpg');
+    position: relative;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    padding-top: 0.1px;
+}
+
+header h1 {
+    margin-top: 40px;
+    font-size: 80px;
+    color: rgb(14, 36, 22);
+    background-color: hsla(95, 36%, 83%, 0.3);
+    font-family: "Julius Sans One", sans-serif;
+
+}
+
+/* about */
+
+
+/*  history */
+
+.row2 {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(148, 166, 132, 0.3);
+}
+
+.row3 {
+    width: 100%;
+    height: 400px;
+    background-color: hsla(93, 16%, 41%, 1);
+}
+
+.row4 {
+    width: 100%;
+    height: 400px;
+    background-color: hsla(93, 16%, 29%, 1);
+}
+
+.row5 {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(148, 166, 132, 0.5);
+}
+
+.row6 {
+    width: 100%;
+    height: 400px;
+    background-color: hsla(93, 13%, 42%, 1);
+}
+
+.row7 {
+    width: 100%;
+    height: 400px;
+    background-color: hsla(93, 17%, 27%, 1);
+}
+
+.row2 h2,
+.row3 h2,
+.row4 h2,
+.row5 h2,
+.row6 h2,
+.row7 h2 {
+    padding-top: 50px;
+    margin-left: 100px;
+    font-size: 60px;
+    color: rgb(14, 36, 22);
+
+}
+
+
+
+
+.imgtxt {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.imgtxt ul {
+    padding-top: 20px;
+    line-height: 40px;
+    max-width: 60%;
+    font-size: 22px;
+    font-family: 'Archivo Narrow', serif;
+    margin-left: 50px;
+    color: rgb(14, 36, 22);
+}
+
+.imgtxt img {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    right: 30%;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    border: 3px solid rgb(14, 36, 22);
+
+}
+
+footer {
+    margin-top: 80px;
+    padding-left: 10px;
+    background-color: rgb(96, 112, 81);
+    padding-bottom: 10px;
+    color: rgb(14, 36, 22);
+}
+
+footer a {
+    padding-top: 5px;
+    color: rgb(14, 36, 22);
+}
+
+/* contact form */
+
+#contactinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacttext {
+    width: 45%;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+.contacttext a {
+    color: rgb(14, 36, 22);
+
+}
+
+.contacttext a:hover {
+    color: rgb(186, 204, 171);
+
+}
+
+.contacttext h2 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.contacttext p {
+    font-size: 22px;
+    color: rgb(28, 33, 24);
+    max-width: 70%;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.contactform h2 {
+    font-size: 32px;
+    font-family: 'Archivo Narrow', serif;
+    text-align: left;
+    color: rgb(14, 36, 22);
+    margin-bottom: 20px;
+}
+
+.contactform p {
+    font-size: 18px;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 500px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: hsla(93, 17%, 27%, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(28, 33, 24);
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+
+    #nav {
+        padding-top: 0;
+        margin-left: 0;
+        text-align: center;
+        white-space: nowrap;
+        word-spacing: 2px;
+
+    }
+
+    .nav2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        word-spacing: 2px;
+        background-color: transparent;
+    }
+
+    .bgimg {
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav2 a {
+        font-size: 12px;
+        word-spacing: 0.2px;
+    }
+
+    .bgimg a {
+        font-size: 12px;
+        word-spacing: 0.2px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        margin-top: 30%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .row2 h2,
+    .row3 h2,
+    .row4 h2,
+    .row5 h2,
+    .row6 h2,
+    .row7 h2 {
+        padding-top: 30px;
+        margin-left: 100px;
+        font-size: 40px;
+        color: rgb(14, 36, 22);
+    }
+
+    .row2 ul,
+    .row3 ul,
+    .row4 ul,
+    .row5 ul,
+    .row6 ul,
+    .row7 ul {
+        padding-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: rgb(14, 36, 22);
+    }
+
+    .imgtxt {
+        margin-bottom: 100px;
+    }
+
+    .contacttext {
+        width: 100%;
+        padding: 0 20px;
+        position: relative;
+        text-align: center;
+    }
+
+    .contacttext h2,
+    .contacttext p {
+        max-width: 100%;
+    }
+
+    .contactform {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    input,
+    textarea {
+        height: auto;
+    }
+}
